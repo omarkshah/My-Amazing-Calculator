@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header id='main-header'>
+        <h1>The Amazing Calculator</h1>
+    </header>
+  
+
+    <!-- the actual calculator -->
+    <div id = 'calculator'>
+
+        
+        <!-- where user input is -->
+        <div id='input-container'>
+            <p id = 'input-screen'>0</p>
+      
+
+        <!-- where the answer is gonna be -->
+            <br>
+            <p id = 'output-screen'>0</p>
+        </div>
+      
+
+        <!-- buttons -->
+        <div id='button'>
+
+            <div id='row-1'>
+                <button id = "c">C</button>
+                <button id = "delete">Del</button>
+                <button id = "answer" >Ans</button>
+                <button class="operator" id='/'>÷</button>
+            </div>
+
+            <div id='row-2'>
+                <button class = 'number' id='btn7'>7</button>
+                <button class = 'number' id='btn8'>8</button>
+                <button class = 'number' id='btn9'>9</button>
+                <button class="operator" id='*'>x</button>
+            </div>
+
+            <div id='row-3'>
+                <button class = 'number' id='btn4'>4</button>
+                <button class = 'number' id='btn5'>5</button>
+                <button class = 'number' id='btn6'>6</button>
+                <button class="operator" id='-'>-</button>
+            </div>
+
+            <div id='row-4'>
+                <button class = 'number' id='btn1'>1</button>
+                <button class = 'number' id='btn2'>2</button>
+                <button class = 'number' id='btn3'>3</button>
+                <button class="operator" id='+'>+</button>
+            </div>
+
+            <div id = 'row-5'>
+                <button class = 'number' id='btn.'>.</button>
+                <button class = 'number' id='btn0'>0</button>
+                <button class='double-size' id = 'enter'>Enter</button>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
